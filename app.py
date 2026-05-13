@@ -34,6 +34,7 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
+
 import base64
 import numpy as np
 import cv2
