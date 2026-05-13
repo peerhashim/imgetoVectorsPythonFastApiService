@@ -36,7 +36,6 @@ def get_model():
 class ImageRequest(BaseModel):
     base64: str
 
-
 class FaceResponse(BaseModel):
     vector: list[float]
 
